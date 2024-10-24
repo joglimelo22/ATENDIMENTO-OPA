@@ -1,0 +1,12 @@
+É necessario fazer algumas instalações antes de iniciar o script, a baixo vou deixar os comandos necessários e a explicação do que cada item fazer
+
+# Copie essa pasta para dentro da pasta Downloads do seu computador
+# Agora dentro da pasta do script, abra o arquivo .env, mude o canal para o canal desejado, sempre contando de cima para baixo
+# Abra o terminal (CTRL+T)
+# Entre dentro da pasta Downloads(cd Downloads)
+# Entre dentro do pasta do script(cd ATENDIMENTO-OPA)
+# Entre no modo ROOT, para isso digite o comando(sudo su)
+# De permissões para instalar as dependencias(chmod 777 install.sh)
+# Instale as dependencias(./install.sh)
+# Inicie o script digitando o seguinte comando(python3 main.py)
+# Agora você pode acessar no seu navegador o seguinte link: http://localhost:5000
