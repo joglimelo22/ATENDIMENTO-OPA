@@ -10,3 +10,4 @@
 # Instale as dependencias(./install.sh)
 # Inicie o script digitando o seguinte comando(python3 main.py)
 # Agora você pode acessar no seu navegador o seguinte link: http://localhost:5000
+# Lembrando, que o arquivo que sera enviado para o script, tem que ser como .csv e tem que ter 2 colunas, number e name
