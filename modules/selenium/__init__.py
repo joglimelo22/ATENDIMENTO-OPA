@@ -1,5 +1,4 @@
 # from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -11,8 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 class SELENIUM():
 
   def __init__(self):
-    # self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    self.driver = webdriver.Firefox()
+    self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
   
   def enterSite(self, url):
