@@ -11,7 +11,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 class SELENIUM():
 
   def __init__(self):
-    self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    # self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    self.driver = webdriver.Firefox()
 
   
   def enterSite(self, url):
