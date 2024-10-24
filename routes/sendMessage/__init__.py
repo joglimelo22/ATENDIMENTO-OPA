@@ -48,9 +48,9 @@ def sendMessage():
     for number in listNumbers:
         newAtt = opa.openAtt(number['number'], number['name'])
         if newAtt['status'] == 200:
-            logs.append(f'SUCESSO: O atendimento do numero {number['number']} com o nome da cliente {number['name']} foi aberto com sucesso')
+            logs.append(f"SUCESSO: O atendimento do numero {number['number']} com o nome da cliente {number['name']} foi aberto com sucesso")
         else:
-            logs.append(f'ERRO: O atendimento do numero {number['number']} com o nome da cliente {number['name']} ocorreu um erro, Erro: {newAtt['message']}')
+            logs.append(f"ERRO: O atendimento do numero {number['number']} com o nome da cliente {number['name']} ocorreu um erro, Erro: {newAtt['message']}")
     
     logString = '\n'.join(logs)
     bufferArchives = io.BytesIO()
